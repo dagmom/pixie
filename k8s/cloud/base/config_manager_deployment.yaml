@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: config-manager-server
-        image: gcr.io/pixie-oss/pixie-dev/cloud/config_manager_server_image
+        image: songyc31/config_manager_server_image
         ports:
         - containerPort: 50500
         readinessProbe:

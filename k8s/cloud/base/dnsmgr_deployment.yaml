@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: dnsmgr-server
-        image: gcr.io/pixie-oss/pixie-dev/cloud/dnsmgr_server_image
+        image: songyc31/dnsmgr_server_image
         ports:
         - containerPort: 51900
         readinessProbe:

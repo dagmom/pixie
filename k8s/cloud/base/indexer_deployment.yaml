@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: indexer-server
-        image: gcr.io/pixie-oss/pixie-dev/cloud/indexer_server_image
+        image: songyc31/indexer_server_image
         ports:
         - containerPort: 51800
         readinessProbe:

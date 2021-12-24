@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: metrics-server
-        image: gcr.io/pixie-oss/pixie-dev/cloud/metrics_server_image
+        image: songyc31/metrics_server_image
         ports:
         - containerPort: 50800
         readinessProbe:
