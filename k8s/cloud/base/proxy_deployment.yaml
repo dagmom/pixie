@@ -27,6 +27,9 @@ spec:
             scheme: HTTPS
             path: /healthz
             port: 56000
+          periodSeconds: 20
+          initialDelaySeconds: 5
+          timeoutSeconds: 5
         envFrom:
         - configMapRef:
             name: pl-oauth-config

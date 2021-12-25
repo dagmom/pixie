@@ -27,7 +27,7 @@ CLOUD_IMAGE_MAP = {
     "songyc31/config_manager_server_image": "//src/cloud/config_manager:config_manager_server_image",
     "songyc31/dnsmgr_server_image": "//src/cloud/dnsmgr:dnsmgr_server_image",
     "songyc31/indexer_server_image": "//src/cloud/indexer:indexer_server_image",
-    "songyc31/job/create_admin_job_image": "//src/cloud/jobs/create_admin_user:create_admin_job_image",
+    "songyc31/create_admin_job_image": "//src/cloud/jobs/create_admin_user:create_admin_job_image",
     "songyc31/metrics_server_image": "//src/cloud/metrics:metrics_server_image",
     "songyc31/profile_server_image": "//src/cloud/profile:profile_server_image",
     "songyc31/project_manager_server_image": "//src/cloud/project_manager:project_manager_server_image",

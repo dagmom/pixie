@@ -51,7 +51,7 @@ build:
     context: .
     bazel:
       target: //src/cloud/scriptmgr:scriptmgr_server_image.tar
-  - image: songyc31/job/create_admin_job_image
+  - image: songyc31/create_admin_job_image
     context: .
     bazel:
       target: //src/cloud/jobs/create_admin_user:create_admin_job_image.tar
