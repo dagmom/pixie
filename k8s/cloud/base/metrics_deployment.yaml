@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: metrics-server
-        image: songyc31/metrics_server_image
+        image: rancher/metrics-server
         ports:
         - containerPort: 50800
         readinessProbe:
