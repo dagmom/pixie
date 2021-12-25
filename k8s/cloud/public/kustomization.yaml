@@ -51,7 +51,7 @@ images:
   newTag: latest
 - name: gcr.io/pixie-oss/pixie-prod/cloud/metrics_server_image
   newName: eipwork/metrics-server
-  newTag: latest
+  newTag: v0.5.0
 - name: gcr.io/pixie-oss/pixie-prod/cloud/profile_server_image
   newName: songyc31/profile_server_image
   newTag: latest

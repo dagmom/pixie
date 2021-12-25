@@ -41,3 +41,6 @@ kubectl create secret tls -n "plc" \
   cloud-proxy-tls-certs \
   --cert="/tmp/tmp.bz5YApLl4d/server.crt" \
   --key="/tmp/tmp.bz5YApLl4d/server.key"
+
+
+  docker pull eipwork/metrics-server:v0.5.0

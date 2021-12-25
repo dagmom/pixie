@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: metrics-server
-        image: eipwork/metrics-server
+        image: eipwork/metrics-server:v0.5.0
         ports:
         - containerPort: 50800
         readinessProbe:
