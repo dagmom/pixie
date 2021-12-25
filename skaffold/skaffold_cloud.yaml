@@ -55,7 +55,7 @@ build:
     context: .
     bazel:
       target: //src/cloud/jobs/create_admin_user:create_admin_job_image.tar
-  - image: songyc31/metrics_server_image
+  - image: rancher/metrics-server
     context: .
     bazel:
       target: //src/cloud/metrics:metrics_server_image.tar

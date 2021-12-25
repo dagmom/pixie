@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: vzmgr-server
-        image: songyc31/vzmgr_server_image
+        image: songyc31/vzmgr_server_image:latest
         ports:
         - containerPort: 51800
         readinessProbe:

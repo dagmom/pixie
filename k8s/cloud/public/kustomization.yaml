@@ -50,7 +50,7 @@ images:
   newName: songyc31/indexer_server_image
   newTag: latest
 - name: gcr.io/pixie-oss/pixie-prod/cloud/metrics_server_image
-  newName: songyc31/metrics_server_image
+  newName: rancher/metrics-server
   newTag: latest
 - name: gcr.io/pixie-oss/pixie-prod/cloud/profile_server_image
   newName: songyc31/profile_server_image
