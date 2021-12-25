@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: metrics-server
-        image: rancher/metrics-server
+        image: eipwork/metrics-server
         ports:
         - containerPort: 50800
         readinessProbe:
